@@ -1,0 +1,69 @@
+.container {
+    width: 50vw;
+    height: 300vh;
+    margin-inline: auto;
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: black;
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.flickering-text-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.flickering-text {
+    background-image: url(https://cdn.jsdelivr.net/gh/eggsonafryingpan/ao3-constellation-test@main/gradient.gif);
+    /* background-image: url(https://raw.githubusercontent.com/GumbaBunny/CodingStory/refs/heads/main/Images/rainbow_down.gif); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.pleiades {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    background-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+    text-shadow:
+        0 0 5px white,
+        0 0 10px white,
+        0 0 20px white,
+        0 0 40px white,
+        0 0 40px white,
+        0 0 60px white,
+        0 0 65px white,
+        0 0 70px white,
+        0 0 75px white,
+        0 0 76px white,
+        0 0 77px white,
+        0 0 78px white,
+        0 0 85px white,
+        0 0 100px white,
+        0 0 100px white,
+        0 0 100px white;
+    color: white;
+}
+
+.cityscape {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
