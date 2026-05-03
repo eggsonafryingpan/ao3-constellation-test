@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+.constellation-scene-container {
+    background-color: black;
+}
+
 .flickering-text-container {
     overflow: hidden;
     display: flex;
@@ -24,23 +28,23 @@ body {
 }
 
 .flickering-text {
-    background-image: url(https://cdn.jsdelivr.net/gh/eggsonafryingpan/ao3-constellation-test@main/gradient.gif);
-    /* background-image: url(https://raw.githubusercontent.com/GumbaBunny/CodingStory/refs/heads/main/Images/rainbow_down.gif); */
+    background-image: url("https://picsur.org/i/42985cdc-cd97-4a9f-92c1-48a01e806587.gif");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 15px;
     background-position: center;
-    opacity: 0.8;
+    white-space: pre;
 }
 
 .pleiades {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 25px;
+    font-size: 20px;
     background-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 3;
+    white-space: pre;
     text-shadow:
         0 0 5px white,
         0 0 10px white,
@@ -63,7 +67,13 @@ body {
 
 .cityscape {
     color: white;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -20%);
+    font-size: 0.6em;
+}
+
+.cityscape-container {
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
