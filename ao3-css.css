@@ -1,0 +1,61 @@
+#workskin .constellation-scene-container {
+    background-color: black;
+}
+
+#workskin .flickering-text-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#workskin .flickering-text {
+    background-image: url("https://iili.io/CJEfa2e.gif");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px;
+    background-position: center;
+    white-space: pre;
+}
+
+#workskin .pleiades {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    background-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+    white-space: pre;
+    text-shadow: 0 0 5px white,
+        0 0 10px white,
+        0 0 20px white,
+        0 0 40px white,
+        0 0 40px white,
+        0 0 60px white,
+        0 0 65px white,
+        0 0 70px white,
+        0 0 75px white,
+        0 0 76px white,
+        0 0 77px white,
+        0 0 78px white,
+        0 0 85px white,
+        0 0 100px white,
+        0 0 100px white,
+        0 0 100px white;
+    color: white;
+}
+
+#workskin .cityscape {
+    color: white;
+    font-size: 0.6em;
+}
+
+#workskin .cityscape-container {
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
